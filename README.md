@@ -7,6 +7,7 @@
 ###### labels.txt - labels for 4 suits, to be copied onto rt 1062
 ###### snapshot_edited.py - file to run on open mv ide to take pictures of cards based on suits
 ###### trained.tflite - tf lite classification model - to be copied onto rt 1062
+###### new data.zip - pictures taken of cards using rt 1062 in open mv ide
 
 
 
