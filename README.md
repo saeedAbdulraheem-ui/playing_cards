@@ -10,6 +10,7 @@
 ###### new data.zip - pictures taken of cards using rt 1062 in open mv ide
 ###### 86percent53class.ipynb - python notebook file containing tensorflow model trained on the playing card dataset (53 classes), additionally contains quantization and generation of .tflite model
 ###### playing_card_model_micro.tflite - 53 class playing card classification model in tensorflow lite format, ready for deployment
+###### led_flash_prog.py - python program for openMV controller to flash LED's equivelant to detected card
 
 
 
