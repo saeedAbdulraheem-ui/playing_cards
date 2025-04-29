@@ -1,20 +1,10 @@
-# serial_logger.py
-# 用来监听OpenMV串口，并保存输出内容到D盘
-
 import serial
 import time
 import os
 
-# -------------------------------
-# 配置部分（只需要改这里）
-# -------------------------------
-COM_PORT = 'COM9'  # ⚡这里写你OpenMV连接到电脑的串口号，比如COM3，COM4，COM5，看设备管理器
+COM_PORT = 'COM9' 
 BAUD_RATE = 115200
 SAVE_PATH = r"D:\University of Limerick\Mini Proj\log.txt"
-
-# -------------------------------
-# 主程序
-# -------------------------------
 def main():
     if not os.path.exists(os.path.dirname(SAVE_PATH)):
         os.makedirs(os.path.dirname(SAVE_PATH))
