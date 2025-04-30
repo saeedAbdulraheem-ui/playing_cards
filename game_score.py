@@ -68,7 +68,7 @@ while True:
 
             if time.time() - start_time > 7: # if 7 secs have based
                 if len(label_buffer) > 0: #buffer list is not empty
-                    my_label = max(set(label_buffer), key=label_buffer.count)  #set the label for the highest value in the buffer list
+                    my_label = max(set(label_buffer), key=label_buffer.count)  #set the label as the most frequent label in the buffer list
                     print("Card registered:", my_label)
                 else:
                     print("same card not detected")
@@ -96,11 +96,11 @@ while True:
         count += 1 #increment counter
         if count >= 5: #end game after 5 rounds
             if system_score > player_score:
-                print('The winner is system')
+                print('The game winner is system')
             elif player_score > system_score:
-                print('The winner is player')
+                print('The game winner is player')
             else:
-                print('It\'s a draw')
+                print('The game is a draw')
             print(f"Player score: {player_score}")
             print(f"System Score: {system_score}")
             break
