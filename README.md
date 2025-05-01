@@ -1,19 +1,79 @@
-# playing_cards
+# 🃏 Playing Cards Classification & Application Suite
 
-###### Augmented_files_dataextraction.ipynb.ipynb - code to augment files that were used to train 4 suit model and code to extract log file info from edge impulse to make accuracy graphs
-###### ei_image_classification.py - code to run classification on open mv ide for 4 suits (contains bounding box for classification)
-###### ei-task2_image_classification-openmv-v10.zip - zip file containing labels, classification script and tflite model deployed on RT 1062
-###### game_colour.py - application with classification, scores classified cards on colour
-###### game_score.py - application with classification, scores classified cards based on suits
-###### snapshot_edited.py - file to run on open mv ide to take pictures of cards based on suits
-###### new data.zip - pictures taken of cards using RT 1062 in Open MV IDEe (not used due to too much occlusio)
-###### real_card_data.zip - pictures taken of cards using RT 1062 in Open MV IDE (this data was used)
-###### 86percent53class.ipynb - python notebook file containing tensorflow model trained on the playing card dataset (53 classes), additionally contains quantization and generation of .tflite model
-###### playing_card_model_micro.tflite - 53 class playing card classification model in tensorflow lite format, ready for deployment
-###### led_flash_prog.py - python program for openMV controller to flash LED's equivelant to detected card
-##### logfile_edgeimpulse.txt - log file containing data used to construct graphs in figure 5 of report
-###### ei-runweini-project-1-openmv-v7.zip Code for sorting playing cards by suit in OpenMV
-###### serial_logger.py Code for listening on the OpenMV port to log a logfile
-###### Storgelogfile.py Code that implements storing a logfile into the camera while it is running
-###### changedataset.py Code that implements the reorganization of a dataset that originally classified playing cards into 53 categories into a classification by suit
-###### logfile of classification with 4 suits.txt logfile of classification with 4 suits
+This repository contains various scripts and data used for building, training, deploying, and running a playing card classification system using Edge Impulse, TensorFlow Lite, and OpenMV.
+
+---
+
+## 📂 Files Overview
+
+### 🔧 Data Preparation & Training
+- **`Augmented_files_dataextraction.ipynb`**  
+  Notebook for:
+  - Augmenting training data for the 4-suit classification model.
+  - Extracting log info from Edge Impulse to generate accuracy graphs.
+
+- **`86percent53class.ipynb`**  
+  TensorFlow model notebook for classifying 53 playing card classes. Includes:
+  - Training pipeline.
+  - Model quantization.
+  - `.tflite` model generation.
+
+- **`changedataset.py`**  
+  Script to reorganize a 53-class dataset into 4 suit categories.
+
+---
+
+### 🤖 Model & Deployment
+- **`playing_card_model_micro.tflite`**  
+  TensorFlow Lite model trained on 53-class playing card dataset — ready for deployment.
+
+- **`ei-task2_image_classification-openmv-v10.zip`**  
+  Contains:
+  - Classification labels.
+  - OpenMV script.
+  - TFLite model deployed on RT1062.
+
+- **`ei-runweini-project-1-openmv-v7.zip`**  
+  Codebase for OpenMV-based card sorting by suit.
+
+---
+
+### 🕹️ Applications
+- **`ei_image_classification.py`**  
+  OpenMV classification script for identifying 4 suits. Includes bounding box functionality.
+
+- **`game_colour.py`**  
+  Application to classify and score cards based on their color.
+
+- **`game_score.py`**  
+  Application to classify and score cards based on their suit.
+
+- **`snapshot_edited.py`**  
+  OpenMV script to capture images of cards by suit.
+
+---
+
+### 💡 Utilities
+- **`serial_logger.py`**  
+  Listens to OpenMV serial output and logs classification data.
+
+- **`Storgelogfile.py`**  
+  Stores a log file directly on the OpenMV camera during runtime.
+
+- **`led_flash_prog.py`**  
+  Controls LEDs on the OpenMV to flash patterns representing detected cards.
+
+---
+
+### 🗃️ Datasets
+- **`new data.zip`**  
+  Card images captured via OpenMV on RT1062 — *not used due to occlusion issues*.
+
+- **`real_card_data.zip`**  
+  Final dataset of card images captured using OpenMV RT1062 — *used for training and evaluation*.
+
+---
+
+### 📄 Logs
+- **`logfile of classification with 4 suits.txt`**  
+ 
