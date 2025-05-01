@@ -10,7 +10,7 @@ This repository contains various scripts and data used for building, training, d
 - **`Augmented_files_dataextraction.ipynb`**  
   Notebook for:
   - Augmenting training data for the 4-suit classification model.
-  - Extracting log info from Edge Impulse to generate accuracy graphs.
+  - Extracting log info from Edge Impulse to generate accuracy graphs seen in Figure 5 of report.
 
 - **`86percent53class.ipynb`**  
   TensorFlow model notebook for classifying 53 playing card classes. Includes:
@@ -72,8 +72,16 @@ This repository contains various scripts and data used for building, training, d
 - **`real_card_data.zip`**  
   Final dataset of card images captured using OpenMV RT1062 — *used for training and evaluation*.
 
+  - **`renamed files - 4 suits`**  
+  Dataset used for model training for Kaggle with augmented Kaggle files - too large to upload to GitHub but can be accessed on OneDrive via this link:
+  https://ulcampus-my.sharepoint.com/:f:/r/personal/24228109_studentmail_ul_ie/Documents/renamed%20files%20-%204%20suits?csf=1&web=1&e=5ABfE4
+
 ---
 
 ### 📄 Logs
 - **`logfile of classification with 4 suits.txt`**  
+  Logfile containing log data on four suits from OpenMV IDE.
+
+- **`logfile_edgeimpulse.txt`**  
+  Log file containing data that was extracted from Edge impulse based on training data for default CNN, used to generate Figure 5 in report.
  
