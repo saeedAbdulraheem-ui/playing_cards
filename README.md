@@ -72,21 +72,14 @@ This repository contains various scripts and data used for building, training, d
 - **`real_card_data.zip`**  
   Final dataset of card images captured using OpenMV RT1062 — *used for training and evaluation*.
 
-  - **`renamed files - 4 suits`**  
-  Dataset used for model training for Kaggle with augmented Kaggle files - too large to upload to GitHub but can be accessed on OneDrive via this link:
-  https://ulcampus-my.sharepoint.com/:f:/r/personal/24228109_studentmail_ul_ie/Documents/renamed%20files%20-%204%20suits?csf=1&web=1&e=5ABfE4
-  
+- **`renamed files - 4 suits`**  
+  Dataset used for model training for Kaggle, with augmented Kaggle files.  
+  ⚠️ *Too large to upload to GitHub — available on OneDrive via this link:*  https://ulcampus-my.sharepoint.com/:f:/r/personal/24228109_studentmail_ul_ie/Documents/renamed%20files%20-%204%20suits?csf=1&web=1&e=5ABfE4
 
-  
-
-  - **`renamed files - 4 suits`**  
-  Dataset used for model training for Kaggle with augmented Kaggle files - too large to upload to GitHub but can be accessed on OneDrive via this link:
-  https://ulcampus-my.sharepoint.com/:f:/r/personal/24228109_studentmail_ul_ie/Documents/renamed%20files%20-%204%20suits?csf=1&web=1&e=5ABfE4
-  
-  Folder structure:
-    train, test, valid - original Kaggle data used to train and test model
-    train_data, aug_data - train file split, 2009 files in aug_data for augmentation and remaining training files in train_data
-    augment_data_2 - augmented data from Kaggle ( 1 augment  per file from aug_data)
+  **Folder structure:**
+  - `train`, `test`, `valid` — Original Kaggle data used to train and test the model  
+  - `train_data`, `aug_data` — Training split: 2,009 files in `aug_data` for augmentation; remainder in `train_data`  
+  - `augment_data_2` — Augmented data (1 augmentation per file from `aug_data`)
 
 ---
 
