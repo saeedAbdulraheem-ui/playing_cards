@@ -1,0 +1,202 @@
+[spinner-done] Job scheduled [0;37mat 25 Apr 2025 12:17:19[0m
+[spinner] Preparing the environment...
+[spinner-done] Job started [0;37mat 25 Apr 2025 12:17:22[0m
+Initializing job pod...
+Initializing job pod OK
+
+Copying features from processing blocks...
+Copying features from DSP block...
+Copying features from DSP block OK
+Copying features from processing blocks OK
+
+[spinner-done] Job scheduled [0;37mat 25 Apr 2025 12:17:34[0m
+[spinner-done] Job started [0;37mat 25 Apr 2025 12:17:35[0m
+Splitting data into training and validation sets...
+Splitting data into training and validation sets OK
+
+Training model...
+Training on 7949 inputs, validating on 1988 inputs
+Using batch size: 32
+Epoch 1/20
+Epoch 16% done
+Epoch 39% done
+Epoch 61% done
+Epoch 83% done
+249/249 - 53s - loss: 1.1133 - accuracy: 0.4677 - val_loss: 0.8739 - val_accuracy: 0.5961 - 53s/epoch - 212ms/step
+Epoch 2/20
+Epoch 22% done
+Epoch 44% done
+Epoch 67% done
+Epoch 89% done
+249/249 - 48s - loss: 0.8278 - accuracy: 0.6272 - val_loss: 0.7305 - val_accuracy: 0.6891 - 48s/epoch - 193ms/step
+249/249 - 48s - loss: 0.8278 - accuracy: 0.6272 - val_loss: 0.7305 - val_accuracy: 0.6891 - 48s/epoch - 193ms/step
+Epoch 3/20
+249/249 - 48s - loss: 0.8278 - accuracy: 0.6272 - val_loss: 0.7305 - val_accuracy: 0.6891 - 48s/epoch - 193ms/step
+Epoch 3/20
+249/249 - 48s - loss: 0.8278 - accuracy: 0.6272 - val_loss: 0.7305 - val_accuracy: 0.6891 - 48s/epoch - 193ms/step
+Epoch 3/20
+Epoch 3/20
+Epoch 22% done
+Epoch 45% done
+Epoch 67% done
+Epoch 91% done
+249/249 - 48s - loss: 0.6808 - accuracy: 0.7138 - val_loss: 0.6257 - val_accuracy: 0.7399 - 48s/epoch - 191ms/step
+Epoch 4/20
+Epoch 22% done
+Epoch 45% done
+Epoch 68% done
+Epoch 45% done
+Epoch 68% done
+Epoch 45% done
+Epoch 68% done
+Epoch 91% done
+249/249 - 47s - loss: 0.5541 - accuracy: 0.7763 - val_loss: 0.5377 - val_accuracy: 0.7847 - 47s/epoch - 190ms/step
+Epoch 5/20
+Epoch 22% done
+Epoch 44% done
+Epoch 67% done
+Epoch 89% done
+249/249 - 48s - loss: 0.4644 - accuracy: 0.8199 - val_loss: 0.4971 - val_accuracy: 0.7963 - 48s/epoch - 193ms/step
+Epoch 6/20
+249/249 - 48s - loss: 0.4644 - accuracy: 0.8199 - val_loss: 0.4971 - val_accuracy: 0.7963 - 48s/epoch - 193ms/step
+249/249 - 48s - loss: 0.4644 - accuracy: 0.8199 - val_loss: 0.4971 - val_accuracy: 0.7963 - 48s/epoch - 193ms/step
+Epoch 6/20
+Epoch 6/20
+Epoch 22% done
+Epoch 45% done
+Epoch 68% done
+Epoch 91% done
+249/249 - 48s - loss: 0.3908 - accuracy: 0.8538 - val_loss: 0.4520 - val_accuracy: 0.8194 - 48s/epoch - 192ms/step
+Epoch 7/20
+Epoch 22% done
+Epoch 45% done
+Epoch 68% done
+Epoch 91% done
+249/249 - 47s - loss: 0.3447 - accuracy: 0.8704 - val_loss: 0.4456 - val_accuracy: 0.8224 - 47s/epoch - 190ms/step
+Epoch 8/20
+Epoch 22% done
+Epoch 45% done
+Epoch 68% done
+Epoch 90% done
+249/249 - 48s - loss: 0.2928 - accuracy: 0.8926 - val_loss: 0.4152 - val_accuracy: 0.8380 - 48s/epoch - 194ms/step
+Epoch 9/20
+Epoch 21% done
+Epoch 44% done
+Epoch 66% done
+Epoch 88% done
+249/249 - 49s - loss: 0.2431 - accuracy: 0.9152 - val_loss: 0.4003 - val_accuracy: 0.8456 - 49s/epoch - 196ms/step
+Epoch 10/20
+Epoch 22% done
+Epoch 44% done
+Epoch 66% done
+Epoch 89% done
+249/249 - 48s - loss: 0.2171 - accuracy: 0.9239 - val_loss: 0.4029 - val_accuracy: 0.8461 - 48s/epoch - 195ms/step
+Epoch 11/20
+Epoch 21% done
+Epoch 44% done
+Epoch 66% done
+Epoch 88% done
+249/249 - 50s - loss: 0.1877 - accuracy: 0.9355 - val_loss: 0.4136 - val_accuracy: 0.8441 - 50s/epoch - 203ms/step
+Epoch 12/20
+Epoch 21% done
+Epoch 43% done
+Epoch 66% done
+Epoch 88% done
+249/249 - 50s - loss: 0.1619 - accuracy: 0.9450 - val_loss: 0.4247 - val_accuracy: 0.8456 - 50s/epoch - 202ms/step
+Epoch 13/20
+Epoch 22% done
+Epoch 44% done
+Epoch 66% done
+Epoch 89% done
+249/249 - 48s - loss: 0.1373 - accuracy: 0.9543 - val_loss: 0.4174 - val_accuracy: 0.8622 - 48s/epoch - 194ms/step
+Epoch 14/20
+249/249 - 48s - loss: 0.1373 - accuracy: 0.9543 - val_loss: 0.4174 - val_accuracy: 0.8622 - 48s/epoch - 194ms/step
+Epoch 14/20
+Epoch 22% done
+Epoch 44% done
+Epoch 67% done
+Epoch 89% done
+249/249 - 48s - loss: 0.1259 - accuracy: 0.9590 - val_loss: 0.4282 - val_accuracy: 0.8587 - 48s/epoch - 193ms/step
+Epoch 15/20
+Epoch 22% done
+Epoch 44% done
+Epoch 66% done
+Epoch 89% done
+249/249 - 49s - loss: 0.1069 - accuracy: 0.9672 - val_loss: 0.4258 - val_accuracy: 0.8622 - 49s/epoch - 195ms/step
+Epoch 16/20
+Epoch 22% done
+Epoch 44% done
+Epoch 66% done
+Epoch 89% done
+249/249 - 49s - loss: 0.0906 - accuracy: 0.9711 - val_loss: 0.4275 - val_accuracy: 0.8627 - 49s/epoch - 196ms/step
+Epoch 17/20
+Epoch 22% done
+Epoch 44% done
+Epoch 66% done
+Epoch 89% done
+249/249 - 50s - loss: 0.0853 - accuracy: 0.9737 - val_loss: 0.4394 - val_accuracy: 0.8692 - 50s/epoch - 202ms/step
+Epoch 18/20
+249/249 - 50s - loss: 0.0853 - accuracy: 0.9737 - val_loss: 0.4394 - val_accuracy: 0.8692 - 50s/epoch - 202ms/step
+249/249 - 50s - loss: 0.0853 - accuracy: 0.9737 - val_loss: 0.4394 - val_accuracy: 0.8692 - 50s/epoch - 202ms/step
+Epoch 18/20
+Epoch 18/20
+Epoch 21% done
+Epoch 43% done
+Epoch 66% done
+Epoch 88% done
+249/249 - 49s - loss: 0.0781 - accuracy: 0.9755 - val_loss: 0.4662 - val_accuracy: 0.8622 - 49s/epoch - 195ms/step
+Epoch 19/20
+Epoch 22% done
+Epoch 44% done
+Epoch 67% done
+Epoch 89% done
+249/249 - 48s - loss: 0.0633 - accuracy: 0.9824 - val_loss: 0.4809 - val_accuracy: 0.8581 - 48s/epoch - 194ms/step
+Epoch 20/20
+Epoch 21% done
+Epoch 44% done
+Epoch 67% done
+Epoch 90% done
+249/249 - 48s - loss: 0.0613 - accuracy: 0.9821 - val_loss: 0.4720 - val_accuracy: 0.8647 - 48s/epoch - 193ms/step
+Finished training
+
+Finished training
+
+Finished training
+
+Saving best performing model... (based on validation loss)
+Saving best performing model OK
+
+Saving best performing model OK
+
+Saving best performing model OK
+Saving best performing model OK
+
+
+Converting TensorFlow Lite float32 model...
+Converting TensorFlow Lite float32 model...
+Converting TensorFlow Lite int8 quantized model...
+Loading data for profiling...
+Loading data for profiling OK
+
+Creating embeddings...
+WARN: Creating embeddings failed: Estimated time to create embeddings is larger than 10 sec., skipping (estimated: 26800 ms.)
+
+Calculating performance metrics...
+Calculating inferencing time...
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Calculating inferencing time OK
+Calculating float32 accuracy...
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Calculating float32 accuracy...
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+
+
+
+Calculating int8 accuracy...
+
+
+
+
+
+Model training complete
