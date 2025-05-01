@@ -76,6 +76,13 @@ This repository contains various scripts and data used for building, training, d
   Dataset used for model training for Kaggle with augmented Kaggle files - too large to upload to GitHub but can be accessed on OneDrive via this link:
   https://ulcampus-my.sharepoint.com/:f:/r/personal/24228109_studentmail_ul_ie/Documents/renamed%20files%20-%204%20suits?csf=1&web=1&e=5ABfE4
   
+
+  
+
+  - **`renamed files - 4 suits`**  
+  Dataset used for model training for Kaggle with augmented Kaggle files - too large to upload to GitHub but can be accessed on OneDrive via this link:
+  https://ulcampus-my.sharepoint.com/:f:/r/personal/24228109_studentmail_ul_ie/Documents/renamed%20files%20-%204%20suits?csf=1&web=1&e=5ABfE4
+  
   Folder structure:
     train, test, valid - original Kaggle data used to train and test model
     train_data, aug_data - train file split, 2009 files in aug_data for augmentation and remaining training files in train_data
