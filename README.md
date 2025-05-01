@@ -1,7 +1,7 @@
 # playing_cards
 
 ###### Augmented_files_dataextraction.ipynb.ipynb - code to augment files that were used to train 4 suit model and code to extract log file info from edge impulse to make accuracy graphs
-###### ei_image_classification.py - code to run classification on open mv ide for 4 suits
+###### ei_image_classification.py - code to run classification on open mv ide for 4 suits (contains bounding box for classification)
 ###### ei-task2_image_classification-openmv-v10.zip - zip file containing labels, classification script and tflite model deployed on RT 1062
 ###### game_colour.py - application with classification, scores classified cards on colour
 ###### game_score.py - application with classification, scores classified cards based on suits
