@@ -6,7 +6,7 @@
 ###### game_colour.py - application with classification, scores classified cards on colour
 ###### game_score.py - application with classification, scores classified cards based on suits
 ###### snapshot_edited.py - file to run on open mv ide to take pictures of cards based on suits
-###### new data.zip - pictures taken of cards using RT 1062 in Open MV IDEe (not used)
+###### new data.zip - pictures taken of cards using RT 1062 in Open MV IDEe (not used due to too much occlusio)
 ###### real_card_data.zip - pictures taken of cards using RT 1062 in Open MV IDE (this data was used)
 ###### 86percent53class.ipynb - python notebook file containing tensorflow model trained on the playing card dataset (53 classes), additionally contains quantization and generation of .tflite model
 ###### playing_card_model_micro.tflite - 53 class playing card classification model in tensorflow lite format, ready for deployment
