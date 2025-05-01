@@ -11,6 +11,8 @@
 ###### 86percent53class.ipynb - python notebook file containing tensorflow model trained on the playing card dataset (53 classes), additionally contains quantization and generation of .tflite model
 ###### playing_card_model_micro.tflite - 53 class playing card classification model in tensorflow lite format, ready for deployment
 ###### led_flash_prog.py - python program for openMV controller to flash LED's equivelant to detected card
-
-
-
+###### ei-runweini-project-1-openmv-v7.zip Code for sorting playing cards by suit in OpenMV
+###### serial_logger.py Code for listening on the OpenMV port to log a logfile
+###### Storgelogfile.py Code that implements storing a logfile into the camera while it is running
+###### changedataset.py Code that implements the reorganization of a dataset that originally classified playing cards into 53 categories into a classification by suit
+###### logfile of classification with 4 suits.txt logfile of classification with 4 suits
